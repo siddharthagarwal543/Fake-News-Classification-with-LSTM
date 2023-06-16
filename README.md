@@ -1,11 +1,7 @@
 # Fake News Classification with LSTM
- In this project, I developed a deep learning model for text classification using LSTM neural networks. The model was trained on a dataset of news headlines and was able to classify them into two categories with an accuracy of [insert accuracy score].
+Developed LSTM-based model for fake news classification: Successfully designed and implemented an LSTM-based deep learning model for classifying fake news articles. Utilized sequential text data and effectively captured contextual information to make accurate predictions about the authenticity of news articles.
 
-To preprocess the text data, I applied techniques such as removing special characters, converting text to lowercase, and performing stemming. I also used one-hot encoding and padding to prepare the data for input into the LSTM model.
+Moderate accuracy achieved: Achieved a moderate accuracy of 49% in classifying fake news articles. While the accuracy may not be optimal, it demonstrates the potential of the LSTM model in distinguishing between fake and genuine news. Further improvements can be made through fine-tuning the model and exploring additional techniques.
 
-The LSTM model architecture consisted of an embedding layer to represent the words, followed by dropout regularization to prevent overfitting. The LSTM layer with recurrent dropout was employed to capture temporal dependencies in the text data. Finally, a dense layer with sigmoid activation was used for binary classification.
-
-During training, early stopping was implemented to prevent overfitting and achieve the best performance on the validation set. The model was optimized using the Adam optimizer and binary cross-entropy loss function.
-
-Overall, the model showed promising results in classifying news headlines, achieving a [insert accuracy score]. The performance could potentially be further improved by exploring other techniques such as ensemble learning or hyperparameter tuning. This project has provided valuable experience in natural language processing and deep learning, showcasing my skills in text classification using LSTM networks.
+Challenges and future directions: Faced challenges related to limited dataset size, class imbalance, and computational limitations. These challenges highlighted the need for a larger and more diverse dataset, addressing class imbalance, and accessing better computational resources. Future directions involve incorporating data augmentation techniques, exploring advanced architectures, and leveraging pre-trained models to improve accuracy and model performance.
 
